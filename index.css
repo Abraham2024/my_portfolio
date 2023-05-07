@@ -48,6 +48,11 @@ body {
     display: block;
 
   }
+  .certifications{
+    color: aliceblue;
+    padding: 10px;
+    text-transform: capitalize;
+  }
 .col1{
   background-color:black; 
   color: #f2f2f2;
@@ -133,10 +138,23 @@ p.top1{
   letter-spacing: 2px;
   text-decoration: solid;
 }
+.skills{
+  color:white;
+  text-transform: capitalize;
+  font-size:small;
+  padding: 10px;
+}
 p.text{
   letter-spacing: 3px;
   text-transform: capitalize;
   font-size: larger;
+}
+.programming{
+  color: whitesmoke;
+  font-size: medium;
+}
+.program{
+  color: red;
 }
 p.text1{
   color:antiquewhite;
