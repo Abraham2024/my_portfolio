@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+   <link rel = "stylesheet" href ="index.css">
+    <link rel ="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+    
+        <a href="#home" class="active">I-tech</a>
+        <a href = "#home">About</a>
+        <a href="#teams">Skills</a>
+        <a href="#research">Projects</a>
+        <a href = "#getstarted"> Certifications </a>
+        <a href="#login">Contact</a>
+        <a href ="#signup"> Gallery</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class = "container">
+        <h1>Ibrahim Muhammed Amanokhai</h1>
+        <p class = "text"> I am a full stack software Engineer</p>
+        <button type = "submit" class = button> hire me</>
+      </div>
+      <div class = "About">
+        <h1 class = "aboutme"> meet <span class = "me"> me</span></h1>
+        <p class = "textme"> i am <span class ="name">ibrahim muhammed amanokhai(Abraham)</span> , a full stack software engineer with experience level in C, python, HTML, css and javascript. i am currently enrolled in ALX software enginnering programme. i am a google, microsoft certified developer. i am currently building my skillbase in ReactJs, Nodejs, bootstrap and Flutter. i am open to internships and remote jobs </p>
+      </div>
+        <div class = "form">
+          <h2 class = "bold"> Lets have a conversation</h2>
+          <p class = "text1"> What will you like to tell us</p>
+          <div class = "row">
+          <div class = "col1">
+        <h4 class = "address">Phone</h4>
+        <p class = "top"> +234 9054525949 </p>
+        <h4 class = "address"> Email</h4>
+        <p class = "top1"> Abrahamtechy@gmail.com </p>
+          </div>
+          <div class = "col2">
+            <h4 class = "address"> Send us a message</h4>
+            <form>
+              <label for "name" > Name</label>
+            <input type = "text" id = 'name' placeholder="Enter your name" required>
+            <label for "email">Email</label>
+            <input type = "email" id = "email" placeholder="example@mail.com">
+            <label for "textarea"> Enter your Message </label>
+            <input type = "text" id = "textarea" placeholder="Enter your message" required>
+              <input type = "submit" value = "submit">
+            </form>
+            
+          </div>
+          </div>
+        </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
