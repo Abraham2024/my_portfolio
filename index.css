@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     overflow:scroll;
     overflow-x: hidden;
-    background-color: black;
+    background-color: whitesmoke;
     box-sizing: border-box;
   }
   .About{
@@ -21,12 +21,15 @@ body {
     color:red;
     font-style: italic;
   }
+  .textme{
+    color: black;
+  }
   .aboutme{
-    color:azure;
+    color: black;
   }
   .topnav {
     overflow: hidden;
-    background-color:#333;
+    background-color: gold;
   }
   .container{
     background-image: url("images/PIC.jpg");
@@ -49,7 +52,7 @@ body {
 
   }
   .certifications{
-    color: aliceblue;
+    color: red;
     padding: 10px;
     text-transform: capitalize;
   }
@@ -118,7 +121,7 @@ h2.bold{
   font-weight: 500;
   text-decoration: solid;
   text-transform: uppercase;
-  color: bisque;
+  color: black;
   font-style: oblique;
 }
 h4.address{
@@ -139,7 +142,7 @@ p.top1{
   text-decoration: solid;
 }
 .skills{
-  color:white;
+  color: black;
   text-transform: capitalize;
   font-size:small;
   padding: 10px;
@@ -150,14 +153,14 @@ p.text{
   font-size: larger;
 }
 .programming{
-  color: whitesmoke;
+  color: black;
   font-size: medium;
 }
 .program{
   color: red;
 }
 p.text1{
-  color:antiquewhite;
+  color: black;
   margin: 15px;
 }
   .topnav a {
